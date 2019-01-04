@@ -49,6 +49,7 @@ public class KalkulatorGUI extends JFrame {
 		setTitle("Kalkulator");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 378, 426);
+		setLocationRelativeTo(null);
 		contentPane = new JPanel();
 		contentPane.setBackground(Color.DARK_GRAY);
 		contentPane.setForeground(Color.LIGHT_GRAY);
