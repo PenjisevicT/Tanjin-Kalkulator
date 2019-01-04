@@ -228,8 +228,14 @@ public class KalkulatorGUI extends JFrame {
 						textArea.setText(""+proizvod);
 						break;
 					case "/":
-						double kolicnik = x/y;
-						textArea.setText(""+kolicnik);
+						if (y == 0)
+						{
+							textArea.setText("ERR");
+						} else
+						{
+							double kolicnik = x/y;
+							textArea.setText(""+kolicnik);
+						}
 						break;
 						
 						
