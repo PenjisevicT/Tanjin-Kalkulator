@@ -44,6 +44,7 @@ public class KalkulatorGUI extends JFrame {
 	 * Create the frame.
 	 */
 	public KalkulatorGUI() {
+		setResizable(false);
 		setForeground(Color.LIGHT_GRAY);
 		setTitle("Kalkulator");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
